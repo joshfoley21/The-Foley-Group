@@ -1,0 +1,43 @@
+/* Reset the default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #F0F0F0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer{
+    margin-top: auto;
+    text-align: center;
+}
+
+/* Create a container for the header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+/* Style the logo */
+.logo a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black; }
